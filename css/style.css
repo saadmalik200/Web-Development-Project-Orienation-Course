@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+nav a {
+  /*     border: 1px red; */
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(148, 72, 21);
+  text-shadow: 1px white ;
+}
+
+/* Change background on mouse-over */
+nav ul li a:hover {
+
+  background: rgba(212, 162, 87, 0.822);
+/*   background-color: rgba(133, 119, 102, 0.719); */
+  color: #FFFFFF;
+}
+
+nav a figcaption:hover {
+    background: rgba(212, 162, 87, 0.822);
+    color: #FFFFFF;
+    
+  }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+  padding-right: 20px;
+  margin: 0px;
+}
+
+nav ul li {
+  margin-top: 20px;
+  padding: 10px;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(119, 128, 123, 0.5);
+
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+nav img {
+  width: 100px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+nav figcaption {
+
+  margin-left: 40px;
+}
+
+body {
+  margin: 0%;
+}
+
+#backTop a {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  color: rgb(148, 72, 21);
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+/*   width: 100%; */
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgba(218, 205, 189, 0.705);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: rgb(148, 72, 21);
+  padding: 5px;
+
+  
+  text-decoration: none;
+  width: 100%;
+
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: rgba(133, 119, 102, 0.719);
+    }
+
+
+footer {
+  background-color: rgb(118, 118, 124);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-top: 0;
+}
+
+#foot {
+  display: flex;
+  justify-content: center;
+}
+#foot h3,
+h4,
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+#foot h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#foot h4 {
+  font-size: 20px;
+}
+
+#foot p {
+  text-align: left;
+}
+
+#foot a {
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#foot article {
+  width: 29%;
+  padding-left: 200px;
+}
+
+#foot .news {
+  padding-left: 0px;
+}
+
+#foot form input {
+  font-family: "Courier New", Courier, monospace;
+}

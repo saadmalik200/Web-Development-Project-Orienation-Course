@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 0;
+
+}
+
+main {
+    padding-top: 100px;
+}
+
+#company {
+    display: flex;
+    background-image: url(../img/pexels-max-vakhtbovych-7511749.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+#company h2 {
+
+    background-color: rgba(133, 119, 102,0.6);
+    color: white;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+#business{
+    display: flex;
+;
+    height: 180px;
+    justify-content: center;
+    gap: 20px;
+}
+
+#business article {
+    width: 400px;
+    
+}
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#location {
+    margin-bottom: 50px;
+}
+
+#location p {
+    text-align: center;
+
+
+}
+
+p {
+    font-family:monospace;
+    font-size: 15px;
+}

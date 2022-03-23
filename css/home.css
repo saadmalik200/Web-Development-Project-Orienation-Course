@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+}
+
+#backImg {
+    display: flex;
+  background-image: url(../img/pexels-freestocksorg-291762.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  /* margin-top: 0%; */
+  
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+
+}
+
+#backImg h1 {
+  text-align: center;
+  color: rgb(236, 248, 126);
+  font-weight: bold;
+  font-size: 50px;
+  background-color: rgba(85, 90, 87, 0.7);
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+}
+
+.main-h2 {
+  margin: 100px;
+  /*     margin-top: 50px; */
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.productRow {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.articleHome {
+  /*     border: 1px black solid; */
+
+  width: 25%;
+  height: 400px;
+}
+
+article img {
+  width: 300px;
+  height: 300px;
+  border: 1px black dashed;
+}
+
+article a {
+  text-decoration: none;
+  color: rgb(148, 72, 21);
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  font-weight: bold;
+}
+
+article figure {
+  margin: 10px;
+}
