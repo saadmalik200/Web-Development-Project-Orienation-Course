@@ -4,7 +4,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Links](#links)
+  - [Link](#link)
   - [Screenshot](#screenshot)
 
   - [My process](#my-process)
@@ -15,7 +15,7 @@
 
 ## Overview
 
-### Links
+### Link
 
 - Live Site URL: [https://saadmalik200.github.io/Web-Development-Project-Orienation-Course](https://saadmalik200.github.io/Web-Development-Project-Orienation-Course)
 
