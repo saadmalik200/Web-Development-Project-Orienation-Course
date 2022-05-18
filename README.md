@@ -24,8 +24,13 @@
 
 #### Desktop Version
 
-![Desktop Layout](./images/Screenshot%20Desktop.png)
+![Desktop Layout](./img/Desktop-Webdev.png)
 
+
+
+#### Product Page
+
+![Product Page](./img/Product-page.png)
 
 ## My process
 
